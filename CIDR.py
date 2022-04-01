@@ -1,3 +1,15 @@
+# Python 3
+# coding: utf-8
+
+__author__ = "Ammar S Malik"
+__copyright__ = "Copyright 2022, The Movie Rental Project"
+__credits__ = ["Ammar Malik"]
+__license__ = "GPL"
+__version__ = "1.0.1"
+__maintainer__ = "all creditors/github"
+__email__ = "dev.malik.ammar@gmail.com"
+__status__ = "Production"
+
 import os
 nBinaryEquiv = []
 
@@ -11,7 +23,6 @@ def prepareBinaryEquiv():
         numVal = ((num > 1 and numVal * 2) or 1)
         nBinaryEquiv.append(numVal)
     return nBinaryEquiv
-
 
 ####################################################################################################
 # Function: convertToBinary(number):
